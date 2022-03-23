@@ -3,7 +3,7 @@ import { packageA } from "@nx-npm-workspace/package-a";
 
 const message = `
 server-a
-${packageA()}
+server-a use ${packageA()}
 `;
 
 const app = express();

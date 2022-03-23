@@ -1,3 +1,3 @@
 export const packageA = () => {
-  return "package a";
+  return "this is package a";
 };
