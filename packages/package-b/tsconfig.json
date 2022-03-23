@@ -7,9 +7,4 @@
     "strict": true,
     "composite": true
   },
-  "references": [
-    {
-      "path": "../package-b"
-    }
-  ]
 }
