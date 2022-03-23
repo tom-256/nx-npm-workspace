@@ -1,0 +1,18 @@
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "module": "commonjs",
+        "types": [
+            "node",
+            "express"
+        ],
+        "esModuleInterop": true,
+    },
+    "exclude": [
+        "**/*.test.ts"
+    ],
+    "include": [
+        "**/*.ts"
+    ]
+}

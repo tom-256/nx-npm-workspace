@@ -1,0 +1,15 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "baseUrl": ".",
+    "paths": {
+      "@nx-npm-workspace/package-a": [
+        "packages/package-a/src/index.ts"
+      ],
+      "@nx-npm-workspace/package-b": [
+        "packages/package-b/src/index.ts"
+      ]
+    }
+  }
+}
