@@ -1,7 +1,14 @@
 import express from "express";
+import { packageA } from "@nx-npm-workspace/package-a";
+
+const message = `
+server-a
+${packageA()}
+`;
+
 const app = express();
 app.get("/api", (req, res) => {
-  res.send({ message: "server-a" });
+  res.send({ message });
 });
 
 const port = process.env.port || 8888;
