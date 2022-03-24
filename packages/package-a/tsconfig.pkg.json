@@ -1,11 +1,8 @@
 {
     "extends": "./tsconfig.json",
     "compilerOptions": {
-        "outDir": "./dist/",
-        "types": [
-            "node",
-        ],
-        "esModuleInterop": true,
+        "types": [],
+        "declaration": true,
     },
     "exclude": [
         "**/*.test.ts"
