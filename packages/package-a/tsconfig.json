@@ -1,15 +1,10 @@
 {
   "extends": "../../tsconfig.base.json",
-  "compilerOptions": {
-    "rootDir": "./src",
-    "outDir": "./dist",
-    "esModuleInterop": true,
-    "strict": true,
-    "composite": true
-  },
+  "files": [],
+  "include": [],
   "references": [
     {
-      "path": "../package-b"
-    }
+      "path": "./tsconfig.pkg.json"
+    },
   ]
 }
